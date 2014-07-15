@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleObservable", "SimpleObservable\SimpleObservable.csproj", "{1757EA8D-104F-4D26-AB84-7E55F6E8322A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleReadLineSubject", "ConsoleReadLineSubject\ConsoleReadLineSubject.csproj", "{B316C06D-3B92-4AA1-8BC8-DC13B9A73659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D298A69A-B376-40E7-8727-3383FBEB3E56}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1757EA8D-104F-4D26-AB84-7E55F6E8322A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1757EA8D-104F-4D26-AB84-7E55F6E8322A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1757EA8D-104F-4D26-AB84-7E55F6E8322A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1757EA8D-104F-4D26-AB84-7E55F6E8322A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B316C06D-3B92-4AA1-8BC8-DC13B9A73659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B316C06D-3B92-4AA1-8BC8-DC13B9A73659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B316C06D-3B92-4AA1-8BC8-DC13B9A73659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B316C06D-3B92-4AA1-8BC8-DC13B9A73659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
