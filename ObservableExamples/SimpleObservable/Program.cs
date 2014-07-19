@@ -65,7 +65,7 @@ namespace SimpleObservable
             // b
             // Sum keeps a running total until the onComplete call.
             observable
-                .Where(i => i > 5)
+                .Where(i => i % 2 == 1)
                 .Sum()
                 .Subscribe(b => Console.WriteLine("b: {0}", b));
 

@@ -27,7 +27,7 @@ namespace ConsoleReadLine
 
             // b
             subject
-                .Where(i => i > 5)
+                .Where(i => i % 2 == 1)
                 .Sum()
                 .Subscribe(b => Console.WriteLine("b: {0}", b));
 

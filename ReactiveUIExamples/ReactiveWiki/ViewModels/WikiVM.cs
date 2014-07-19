@@ -15,7 +15,7 @@ namespace ReactiveWiki
 {
     public class WikiVM : ReactiveObject
     {
-        static Wiki wiki = new Wiki("LinqToWiki UserAgent Test", "en.wikipedia.org");
+        static Wiki wiki = new Wiki("LinqToWiki UserAgent Test", "en.wikipedia.org"); //https://en.wikiquote.org
 
         string _searchText = String.Empty;
         public string SearchText
