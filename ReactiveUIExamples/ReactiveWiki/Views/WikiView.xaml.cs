@@ -44,11 +44,10 @@ namespace ReactiveWiki.Views
             searchBox.Populating += (s, e) =>
             {
                 e.Cancel = true;
-
-                this.WhenAnyObservable(t => t.ViewModel.AutoComplete.ItemsAdded)
-                    .Take(1)
-                    .Subscribe(x => this.searchBox.PopulateComplete());
             };
+
+            this.WhenAnyObservable(t => t.ViewModel.AutoComplete.ItemsAdded)
+                .Subscribe(x => this.searchBox.PopulateComplete());
 
             var keyUp = Observable.FromEventPattern<KeyEventHandler, KeyEventArgs>(
                 h => searchBox.KeyUp += h,
